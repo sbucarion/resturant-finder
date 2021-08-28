@@ -4,10 +4,6 @@ import bs4 as bs
 import random
 
 
-genre = "chinese"
-location = 'odessa'
-
-
 def get_html(genre, location, start = 0, main = None):
     if main == None:
         source = 'https://www.yelp.com/search?cflt={}&find_loc={}&sortby=rating&start={}'.format(genre, location, start)
