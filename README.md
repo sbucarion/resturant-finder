@@ -1,7 +1,7 @@
 # resturant-finder
 Given a location and cuisine, application will find a restaurant for you to choose
 
-Skills: Web Scraping (urllib), GUI (tkinter)
+Skills: Web Scraping (urllib and bs4), GUI (tkinter)
 
 #How to Use
 1) Run program and a GUI will load
